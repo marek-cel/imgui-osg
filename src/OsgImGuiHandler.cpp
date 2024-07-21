@@ -99,19 +99,19 @@ void OsgImGuiHandler::init()
     ImGuiIO& io = ImGui::GetIO();
 
     // Keyboard mapping. ImGui will use those indices to peek into the io.KeyDown[] array.
-    io.KeyMap[ImGuiKey_Tab] = ImGuiKey_Tab;
-    io.KeyMap[ImGuiKey_LeftArrow] = ImGuiKey_LeftArrow;
-    io.KeyMap[ImGuiKey_RightArrow] = ImGuiKey_RightArrow;
-    io.KeyMap[ImGuiKey_UpArrow] = ImGuiKey_UpArrow;
-    io.KeyMap[ImGuiKey_DownArrow] = ImGuiKey_DownArrow;
-    io.KeyMap[ImGuiKey_PageUp] = ImGuiKey_PageUp;
-    io.KeyMap[ImGuiKey_PageDown] = ImGuiKey_PageDown;
-    io.KeyMap[ImGuiKey_Home] = ImGuiKey_Home;
-    io.KeyMap[ImGuiKey_End] = ImGuiKey_End;
-    io.KeyMap[ImGuiKey_Delete] = ImGuiKey_Delete;
-    io.KeyMap[ImGuiKey_Backspace] = ImGuiKey_Backspace;
-    io.KeyMap[ImGuiKey_Enter] = ImGuiKey_Enter;
-    io.KeyMap[ImGuiKey_Escape] = ImGuiKey_Escape;
+    // io.KeyMap[ImGuiKey_Tab] = ImGuiKey_Tab;
+    // io.KeyMap[ImGuiKey_LeftArrow] = ImGuiKey_LeftArrow;
+    // io.KeyMap[ImGuiKey_RightArrow] = ImGuiKey_RightArrow;
+    // io.KeyMap[ImGuiKey_UpArrow] = ImGuiKey_UpArrow;
+    // io.KeyMap[ImGuiKey_DownArrow] = ImGuiKey_DownArrow;
+    // io.KeyMap[ImGuiKey_PageUp] = ImGuiKey_PageUp;
+    // io.KeyMap[ImGuiKey_PageDown] = ImGuiKey_PageDown;
+    // io.KeyMap[ImGuiKey_Home] = ImGuiKey_Home;
+    // io.KeyMap[ImGuiKey_End] = ImGuiKey_End;
+    // io.KeyMap[ImGuiKey_Delete] = ImGuiKey_Delete;
+    // io.KeyMap[ImGuiKey_Backspace] = ImGuiKey_Backspace;
+    // io.KeyMap[ImGuiKey_Enter] = ImGuiKey_Enter;
+    // io.KeyMap[ImGuiKey_Escape] = ImGuiKey_Escape;
     io.KeyMap[ImGuiKey_A] = osgGA::GUIEventAdapter::KeySymbol::KEY_A;
     io.KeyMap[ImGuiKey_C] = osgGA::GUIEventAdapter::KeySymbol::KEY_C;
     io.KeyMap[ImGuiKey_V] = osgGA::GUIEventAdapter::KeySymbol::KEY_V;
